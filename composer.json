@@ -12,6 +12,12 @@
     ],
     "type": "library",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/HenrikBormann/rialto"
+        }
+    ],
     "authors": [
         {
             "name": "Johann Pardanaud",
@@ -20,7 +26,7 @@
     ],
     "require": {
         "php": ">=7.3",
-        "nesk/rialto": "^1.2.0",
+        "nesk/rialto": "dev-dev",
         "vierbergenlars/php-semver": "^3.0.2"
     },
     "require-dev": {
